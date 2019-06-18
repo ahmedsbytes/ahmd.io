@@ -1,0 +1,58 @@
+---
+layout: default
+title:
+generator: pagination
+pagination:
+    max_per_page: 3
+use:
+    - posts
+---
+{% if page.pagination.items %}
+<h2>
+    Recent blog posts
+</h2>
+{% for post in page.pagination.items %}
+    <ul>
+        <li>
+            <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> &nbsp; {{ post.date|date('Y-m-d') }}
+        </li>
+    </ul>
+{% endfor %}
+{% endif %}
+<div class="pt-lg-2">
+    <a href="{{ site.url }}/blog">Archive</a>, <a href="{{ site.url }}/blog/tags">Tags</a>
+</div>
+<div class="mt-lg-4">
+    <h2>
+        Connect with me
+    </h2>
+    <ul>
+        <li>
+            <a href="https://www.linkedin.com/in/ahmedmaabdou/">LinkedIn</a>
+        </li>
+        <li>
+            <a href="https://github.com/amaabdou">Github</a>
+        </li>
+        <li>
+            <a href="https://twitter.com/ama_abdou/">Twitter</a>
+        </li>
+        <li>
+            <a href="https://www.amazon.de/hz/wishlist/ls/32VJCKLFI16JC?ref_=wl_share">
+                Books@Amazon wishlist
+            </a>
+        </li>
+        <li>
+            <a href="https://www.goodreads.com/amaabdou">
+                Books@Goodreads
+            </a>
+        </li>
+        <li>
+            &#109;&#97;&#105;&#108;&#64;a&#104;m&#100;.i&#111;
+        </li>
+        <li>
+            <a href="https://keys.fedoraproject.org/pks/lookup?search=0xE6348D631C89418E&op=vindex">
+                0xE6348D631C89418E
+            </a>
+        </li>
+    </ul>
+</div>
