@@ -45,7 +45,7 @@ jobs:
       - run: yarn install
       - run: ./vendor/bin/sculpin generate --env=prod
       - run: sudo apt install rsync
-      - run: rsync -rv output_prod/ ${DEST_HOST}:${DEST_PATH}
+      - run: rsync -zvr output_prod/ ${DEST_HOST}:${DEST_PATH}
 
 
 
