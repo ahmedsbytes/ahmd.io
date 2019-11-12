@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
-    <head lang="en">
+<html lang="en">
+    <head>
         <title>{% block title %}{{ page.title }}{% endblock %} &mdash; {{ site.title }} &mdash; {{ site.subtitle }}</title>
+        <meta name="description" content="Ahmed Abdou, blog, another software engineer space ">
         <meta charset="utf-8">
         <meta name="theme-color" content="#ffffff">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         {% block head_meta %}
-            <meta name="robots" content="noindex, follow">
+            <meta name="robots" content="index, follow">
         {% endblock %}
         <link rel="stylesheet" href="{{ site.url }}/build/app.css">
 
