@@ -17,7 +17,8 @@ jobs:
       - run: sudo docker-php-ext-install zip
       - run: composer install -n --prefer-dist
       - run: yarn install
-      - run: ./vendor/bin/sculpin generate --env=prod
+      - run: yarn encore production
+      - run: ./vendor/bin/sculpin generate --env=prod --clean -n
       - run: rsync -zvr -e "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" output_prod/ ${DEST_HOST}:${DEST_PATH}
 
 
