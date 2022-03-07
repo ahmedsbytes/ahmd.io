@@ -1,5 +1,7 @@
 ---
 title: Yubico with gpg, ssh keys, 2FA, and others
+date: 2019-06-18T23:02:33+01:00
+draft: false
 tags:
     - yubico
     - ssh
