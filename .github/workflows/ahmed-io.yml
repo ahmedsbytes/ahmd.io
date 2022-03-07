@@ -23,10 +23,8 @@ jobs:
           # extended: true
       - name: Build
         run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-       # if: github.ref == 'refs/heads/main'
+      - uses: webfactory/ssh-agent@v0.5.4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Deploy
+        run: rsync -zvr -e "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" public ${DEST_HOST}:${DEST_PATH}
