@@ -12,8 +12,7 @@ dataDir: .
 
 hasCJKLanguage: true
 permalinks:
-  posts: /posts/:title/
-  blog: /blog/:year/:month/:day/:filename/
+  posts: /blog/:year/:month/:day/:filename/
 
 
 paginate: 3
