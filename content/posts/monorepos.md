@@ -46,7 +46,7 @@ Here are some of the costs to consider when choosing between a monorepo and a mu
 * The cost of changing internal tools to follow the new structure.
 * The cost of training all engineers and changing the culture to adjust to the new style.
 
-So, considering the pros, the cons, and the cost, is it a viable deicion ?
+So, considering the pros, the cons, and the cost, is it a viable decision ?
 
 ## It's an organizational change, not just a technical one.
 
