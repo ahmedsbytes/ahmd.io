@@ -59,6 +59,12 @@ There are two organizational considerations to keep in mind when making this dec
 
 Don't make the decision to use a monorepo or a multirepo just because another company or open source project does. Every company has its own culture, practices, and history. If you blindly copy someone else's approach, you'll end up copying their mistakes as well.
 
+## Change is hard, sometimes it's required, but don't make it harder.
+
+A friend introduced me to a nice concept of "reversible" or "irreversible" decision. Simply ask yourself, can we reasonably reverse this decision later?
+
+While sometimes the value is clear, the cost can be too great, and it might drive you to hesitate. In those cases, think about the worst case scenario: we have to reverse our decision, can it be done? If not, can we make a small experiment and measure the desired change instead of a full-blown change?
+
 ## Conclusion
 
-The decision of whether to use a monorepo or a multirepo is a complex one. There are many factors to consider, including the problem you're trying to solve, the costs involved, and the organizational impact. Don't make the decision lightly.
+The decision of whether to use a monorepo or a multirepo is a complex one. There are many factors to consider, including the problem you're trying to solve, the costs involved, and the organizational impact, decision reversibility. Don't make the decision lightly.
