@@ -11,17 +11,17 @@ tags:
     - teams
 ---
 
-# **Cross-Timezone Team Work: Best Practices and Challenges**
+# Cross-Timezone Team Work: Best Practices and Challenges
 
-## **Setting the Scene**
+## Setting the Scene
 
 Cross-timezone collaboration typically involves teams with limited overlapping work hours, often as little as 1-2 hours daily. Outside this window, one or more teams are unavailable due to their local work schedules. This scenario presents unique challenges to effective teamwork.
 
 Imagine team collaboration as a game of football or a tango dance – it requires all participants to be present and engaged simultaneously. The following insights are drawn from real-world experiences to help navigate these challenges.
 
-## **What Works and What Doesn't**
+## What Works and What Doesn't
 
-### **1\. Sync vs. Async Discussions**
+### 1\. Sync vs. Async Discussions
 
 #### Challenge:
 
@@ -29,45 +29,45 @@ Imagine team collaboration as a game of football or a tango dance – it require
 * Async communication can lead to multi-day conversations and extremely slow progress on topics, decisions, and blockers.  
 * Picture a situation where a 10-15 sentence conversation stretches over several days, with only 2-3 sentences exchanged per day.
 
-  #### Solution:
+#### Solution:
 
 * Prioritize synchronous, face-to-face communications during the overlapping time window.  
 * Pre-book these sync sessions to ensure optimal use of the limited shared time and avoid stale communications.
 
-  ### **2\. Documentation: The Power of Meeting Notes**
+### 2\. Documentation: The Power of Meeting Notes
 
-  #### Challenge:
+#### Challenge:
 
 * Relying solely on memory or ephemeral chat threads is insufficient, especially when team members are juggling numerous tasks and personal responsibilities.  
 * When clarification is needed, the go-to solution of impromptu calls isn't feasible due to time zone differences.
 
-  #### Solution:
+#### Solution:
 
 * Maintain detailed, living meeting notes documents.  
 * Record conversations, decisions, task assignments, and follow-up items.  
 * This practice ensures that information is accessible even when team members are offline.
 
-  ### **3\. Explicit vs. Implicit Communication**
+### 3\. Explicit vs. Implicit Communication
 
-  #### Challenge:
+#### Challenge:
 
 * Assumptions about "common knowledge" or the simplicity of decisions can lead to misunderstandings and delays.  
 * What seems like a straightforward choice (e.g., "Let's use MongoDB") often involves numerous implicit details that aren't communicated.
 
-  #### Solution:
+#### Solution:
 
 * Practice explicit communication. Discuss details thoroughly: "What does this mean in practical steps?"  
 * Reference existing artifacts: "Do we have previous code or projects that demonstrate this?"  
 * Encourage clarity checks: "Let me summarize my understanding; please correct any misinterpretations."
 
-  ## **Keys to Success**
+## Keys to Success
 
-1. **Effective Communication**: Prioritize clear, explicit, and documented exchanges.  
-2. **Empathy**: Cultivate understanding for each team member's unique time zone challenges.  
-3. **Structured Overlap**: Maximize the effectiveness of shared working hours through careful planning and focused interactions.  
-4. **Comprehensive Documentation**: Maintain detailed records to bridge the gaps created by asynchronous work patterns.
+1. Effective Communication: Prioritize clear, explicit, and documented exchanges.  
+2. Empathy: Cultivate understanding for each team member's unique time zone challenges.  
+3. Structured Overlap: Maximize the effectiveness of shared working hours through careful planning and focused interactions.  
+4. Comprehensive Documentation: Maintain detailed records to bridge the gaps created by asynchronous work patterns.
 
-   ## **Recommended Reading**
+## Recommended Reading
 
 To deepen your understanding of cross-cultural and efficient teamwork, consider these resources:
 
