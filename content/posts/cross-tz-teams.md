@@ -1,5 +1,5 @@
 ---
-title: Cross-Timezone Team Work: Best Practices and Challenges
+title: "Cross-Timezone Team Work: Best Practices and Challenges"
 date: 2024-09-22T08:41:33+02:00
 draft: false
 tags:
