@@ -9,8 +9,6 @@ tags:
     - teams
 ---
 
-# Listen First, Code Later: A Software Engineer's Guide to Avoiding Wasted Work
-
 Several years into my software engineering career, I made a surprising discovery: my job doesn't start with code—it starts with communication and listening. Like many engineers, I joined this industry because I love building things. The excitement of creating solutions and fixing problems still drives me today. However, this builder's mindset comes with a hidden trap: we often prioritize speaking over listening.
 
 ## The Communication Paradox in Software Engineering
@@ -57,3 +55,24 @@ The next time you're faced with a new problem to solve, take a step back. Rememb
 
 By mastering the art of listening and questioning, we can become not just better engineers, but better problem solvers. After all, the best solution to the wrong problem is still the wrong solution.
 
+## Further Reading  
+
+To deepen your understanding of effective communication in software engineering and problem-solving, here are some valuable resources:
+
+1. **"The Mom Test" by Rob Fitzpatrick**
+   A practical guide to talking to customers and learning if your business is a good idea when everyone is lying to you. While focused on entrepreneurship, its techniques for asking good questions and avoiding biased feedback are invaluable for engineers.
+
+2. **"Debugging Teams: Better Productivity through Collaboration" by Brian W. Fitzpatrick and Ben Collins-Sussman**
+   Explores how to work effectively in software teams, with excellent chapters on communication and understanding team dynamics.
+
+3. **"Clean Language: Revealing Metaphors and Opening Minds" by Wendy Sullivan and Judy Rees**
+   Though not specifically about software engineering, this book provides powerful questioning techniques that help uncover true meaning in conversations.
+
+4. **"Just Enough Requirements Management" by Alan Davis**
+   A practical guide to gathering and managing requirements effectively, with specific techniques for better understanding user needs.
+
+5. **"Crucial Conversations: Tools for Talking When Stakes are High" by Kerry Patterson et al.**
+   While this is a general communication book, its techniques are particularly valuable for technical discussions and requirement gathering sessions.
+
+6. **"Are Your Lights On?: How to Figure Out What the Problem Really Is" by Donald C. Gause and Gerald M. Weinberg**
+   A classic that teaches how to identify the real problem that needs solving, often different from the initially stated problem.

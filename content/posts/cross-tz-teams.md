@@ -11,8 +11,6 @@ tags:
     - teams
 ---
 
-# Cross-Timezone Team Work: Best Practices and Challenges
-
 ## Setting the Scene
 
 Cross-timezone collaboration typically involves teams with limited overlapping work hours, often as little as 1-2 hours daily. Outside this window, one or more teams are unavailable due to their local work schedules. This scenario presents unique challenges to effective teamwork.

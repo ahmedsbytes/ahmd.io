@@ -1,7 +1,7 @@
 baseURL: 'https://ahmd.io/'
 languageCode: 'en-us'
 title: 'Ahmed'
-theme: "mini"
+theme: 'typo'
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish), default 'en'
 defaultContentLanguage: "en"
@@ -25,7 +25,7 @@ disqusShortname: ahmed-xl2mvkysg2
 markup:
   highlight:
     guessSyntax: true
-    style: vim
+    style: 'algol'
   tableOfContents:
     endLevel: 3
     ordered: false
@@ -35,15 +35,6 @@ markup:
     renderer:
       unsafe: true
 
-# Social links in footer, support github,twitter,stackoverflow,facebook
-social:
-  # e.g.
-  github: https://github.com/amaabdou/
-  twitter: https://twitter.com/ama_abdou
-  #stackoverflow: your-github-link
-  # facebook: your-facebook-link
-
-
 # Site parameters
 params:
   # Site Author
@@ -52,41 +43,38 @@ params:
   bio: Software Engineer
   # Site Description, used in HTML meat
   description: Ahmed's notes
+  # Social links in footer, support github,twitter,stackoverflow,facebook
+  social:
+    # e.g.
+    github:
+      name: github 
+      url: https://github.com/amaabdou/
+    linkedin:
+      name: linkedin 
+      url: https://www.linkedin.com/in/ahmedmaabdou/
+    #stackoverflow: your-github-link
+    # facebook: your-facebook-link
 
+  #homeCollectionTitle: 'Posts'
+  homeCollection: 'posts'
+  paginationSize: 100
+  #listSummaries: true
+  listDateFormat: '2 Jan 2006'
+  breadcrumbs: true
+  
+  menu:
+    - 
+      name: "home"
+      url: "/"
+    -
+      name: "posts"
+      url: "/posts"
+    - 
+      name: "about"
+      url: "/about"
+    - 
+      name: "tags"
+      url: "/tags"
+      
+  footerContent: 'This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.'
 
-  ###########################################
-  # Optional Configuration
-  ###########################################
-
-  # To enable RSS, you could set `enableRSS: true`, default is `true`
-  enableRSS: false
-  # To enable comments, you may need to set `disqusShortname`
-  enableComments: true
-  # To enable comments, you may need to set `googleAnalytics`
-  enableGoogleAnalytics: true
-  # To enable table of content, you could set `showToc: true`, default is `false`
-  showToc: true
-  # To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`
-  showPowerBy: true
-  # To enable math typesetting , you could set `math: true`, default is `false`
-  math: false
-  # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
-  hiddenPostSummaryInHomePage: false
-  # Website copy write, default: '© Copyright 2021 ❤️ {params.author}'
-  copyright: '<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.'
-
-  # Extra links in navigation
-  links:
-    ## e.g.
-    # - name: Project
-    #   path: /project
-
-  # You can put your custom css and js to `static` directory, or use remote css and js files which start with `http://` or `https://`
-  customCSS:
-    ## e.g.
-    # - css/custom.css # local css in `static/css/custom.css`
-    # - https://example.com/custom.css # remote css
-  customJS:
-    ## e.g.
-    # - js/custom.js # local js in `static/js/custom.js`
-    # - https://example.com/custom.js # remote js

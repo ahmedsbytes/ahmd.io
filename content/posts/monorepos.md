@@ -10,8 +10,6 @@ tags:
     - monorepo
 ---
 
-# The curious case of monorepos vs multi-repos
-
 The discussion about monorepos vs multi-repos is a common one among software engineers, especially those who work in platform and developer tools. The question often comes up in the following forms: "Should we merge all our repos into one?" or "Should we split our repos into multiple repos?"
 
 ## It's not what you think.
