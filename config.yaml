@@ -14,6 +14,11 @@ hasCJKLanguage: true
 permalinks:
   posts: /blog/:year/:month/:day/:filename/
 
+sitemap:
+  changeFreq: ""
+  disable: false
+  filename: sitemap.xml
+  priority: -1
 
 paginate: 3
 
