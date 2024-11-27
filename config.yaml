@@ -20,11 +20,9 @@ sitemap:
   filename: sitemap.xml
   priority: -1
 
-paginate: 3
-
 services:
   googleAnalytics: 
-    ID: "UA-136798188-1"
+    ID: "G-7P6QJ49C3X"
 
 # Hugo Configure Markup
 # More info: https://gohugo.io/getting-started/configuration-markup#
