@@ -22,8 +22,9 @@ sitemap:
 
 paginate: 3
 
-googleAnalytics: UA-136798188-1
-disqusShortname: ahmed-xl2mvkysg2
+services:
+  googleAnalytics: 
+    ID: "UA-136798188-1"
 
 # Hugo Configure Markup
 # More info: https://gohugo.io/getting-started/configuration-markup#
