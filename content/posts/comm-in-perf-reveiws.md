@@ -1,6 +1,6 @@
 ---
 title: "Effective Communication in Professional Settings During Performance Reviews."
-date: 2025-05-16T011:01:33+02:00
+date: 2025-05-16T11:01:33+02:00
 draft: false
 tags:
     - organization
