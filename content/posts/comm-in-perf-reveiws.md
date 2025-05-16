@@ -45,7 +45,7 @@ Radwan recommends several practical techniques:
 
 ### 5. Avoid "But" in Achievement Statements
 
-> "Don't use the word 'but' in achievement sentences. Many Egyptians use 'but' as a connector. You might say 'It was a great success but it was the team's effort.' In English, the situation is different—use 'and.' No one will care about what comes after 'but.'"
+> "Don't use the word 'but' in achievement sentences. Many juniors use 'but' as a connector. You might say 'It was a great success but it was the team's effort.' In English, the situation is different—use 'and.' No one will care about what comes after 'but.'"
 
 ### 6. Avoid Negative Responses Without Solutions
 
