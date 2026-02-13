@@ -52,7 +52,7 @@ params:
     # e.g.
     github:
       name: github 
-      url: https://github.com/amaabdou/
+      url: https://github.com/ahmedsbytes/
     linkedin:
       name: linkedin 
       url: https://www.linkedin.com/in/ahmedmaabdou/
