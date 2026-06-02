@@ -12,7 +12,7 @@ dataDir: .
 
 hasCJKLanguage: true
 permalinks:
-  posts: /blog/:year/:month/:day/:filename/
+  posts: /blog/:year/:month/:day/:contentbasename/
 
 sitemap:
   changeFreq: ""
