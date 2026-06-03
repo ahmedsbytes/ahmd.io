@@ -1,6 +1,6 @@
 ---
 title: "4.88 Billion Tokens for $120 — Why I Stopped Using Frontier Models for Everything"
-date: 2026-06-03
+date: 2026-06-02
 draft: false
 tags:
     - ai
