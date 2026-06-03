@@ -12,7 +12,7 @@ tags:
 
 Last month, I processed **4.88 billion tokens** through an LLM. My bill: **$120**.
 
-If I had run the same workload on OpenAI's flagship model, the minimum estimate would have been **$4,900**. On Claude's cheapest tier: **$4,880**.
+If I had run the same workload on a famous frontier model, the minimum estimate would have been **$4,900**. On other frontier providers' cheapest tiers: **$4,880**.
 
 I didn't save money by being cheap. I saved money by being intentional about which model does what.
 
@@ -41,7 +41,7 @@ Most people run one model for everything. That's like using a Formula 1 car to g
 
 The architecture that works:
 
-- **Planning** → Claude Opus or equivalent (expensive, deliberate)
+- **Planning** → a frontier model (expensive, deliberate, infrequent)
 - **Execution** → an open-weight model (cheap, fast, 80% of daily work)
 
 This isn't a hack. It's an entire research field.
@@ -66,7 +66,7 @@ Here's the part nobody advertises: cheaper models need better prompting.
 
 Open-weight models don't hold your hand. You have to engineer your context — system prompts, few-shot examples, clear constraints. It's more work upfront. But the ROI makes it a no-brainer.
 
-Is it "a bit tiring"? Yes. But here's the thing: context engineering is a **moat**. Anyone can pay for GPT-5. Not everyone can extract GPT-4-quality output from a model that costs 40x less.
+Is it "a bit tiring"? Yes. But here's the thing: context engineering is a **moat**. Anyone can pay for a frontier model. Not everyone can extract frontier-quality output from a model that costs 40x less.
 
 ---
 
