@@ -8,6 +8,8 @@ variables:
 
 deploy:
   stage: deploy
+  tags:
+    - carbon-docker
   image:
     name: ghcr.io/gohugoio/hugo:latest
     entrypoint: [""]
