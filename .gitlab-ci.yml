@@ -1,0 +1,56 @@
+stages:
+  - deploy
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+  GIT_DEPTH: "0"
+  HUGO_ENV: production
+
+deploy:
+  stage: deploy
+  image:
+    name: ghcr.io/gohugoio/hugo:latest
+    entrypoint: [""]
+    docker:
+      user: "0"
+  before_script:
+    - apk add --no-cache rsync
+    - chmod 400 "$SSH_PRIVATE_KEY"
+    - install -d -m 700 "$HOME/.ssh"
+    - |
+      printf '%s\n' \
+        'carbon.ahmd.io ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAK5+0WuBkGQovaYwMyJX13nQsAXdBhd5dGLfe6o7A2K' \
+        'caddy ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHuQ7WnNloIpv04cfJrfOzWedLzvjhATpF48H5GEx6cN' \
+        > "$HOME/.ssh/known_hosts"
+    - chmod 644 "$HOME/.ssh/known_hosts"
+    - |
+      cat > "$HOME/.ssh/config" <<EOF
+      Host carbon-jump
+        HostName carbon.ahmd.io
+        Port 22
+        User emberfox
+        IdentityFile $SSH_PRIVATE_KEY
+        IdentitiesOnly yes
+        BatchMode yes
+        StrictHostKeyChecking yes
+        HostKeyAlias carbon.ahmd.io
+        UserKnownHostsFile ~/.ssh/known_hosts
+
+      Host caddy-deploy
+        HostName caddy
+        Port 22
+        User ahmd.io
+        IdentityFile $SSH_PRIVATE_KEY
+        IdentitiesOnly yes
+        BatchMode yes
+        StrictHostKeyChecking yes
+        HostKeyAlias caddy
+        UserKnownHostsFile ~/.ssh/known_hosts
+        ProxyJump carbon-jump
+      EOF
+    - chmod 600 "$HOME/.ssh/config"
+  script:
+    - hugo --minify
+    - rsync -zvr --delete -e "ssh -F $HOME/.ssh/config" public/ caddy-deploy:/home/ahmd.io/public_html/
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
